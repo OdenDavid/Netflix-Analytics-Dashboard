@@ -9,7 +9,6 @@ from wordcloud import WordCloud
 from wordcloud import STOPWORDS
 import matplotlib.pyplot as plt
 
-
 def plot_metric(label, value):
     fig = go.Figure()
 
