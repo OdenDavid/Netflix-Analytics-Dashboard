@@ -35,9 +35,6 @@ else:
     data = pd.read_sql_query("""SELECT * FROM Netflix
                                 WHERE release_year={};""".format(year), conn)
 
-#image = Image.open('Images/logo.png')
-#st.image(image)
-
 # ================== Row 1: Count plots =====================
 col1,col2,col3,col4,col5,col6 = st.columns(6)
 with col1:
@@ -113,15 +110,3 @@ st.write('---')
 # ================== Row 6: Map =====================
 st.caption(unsafe_allow_html=True,body="<b>Count of Shows by Country</b>")
 country_map(data=data)
-
-
-
-
-
-
-
-
-
-
-
-
