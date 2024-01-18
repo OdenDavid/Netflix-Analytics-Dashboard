@@ -7,7 +7,7 @@ A dashboard web app built in Python using Streamlit.
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chartynetflix.streamlit.app/)
 
 ## Colab notebook
-[![Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dataprofessor/population-dashboard/blob/master/US_Population.ipynb)
+[![Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OdenDavid/Netflix-Analytics-Dashboard/blob/main/explore.ipynb)
 
 ## Prerequisite 
 Here are the Python libraries used in the creation of this dashboard app
